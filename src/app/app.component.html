@@ -19,7 +19,7 @@
             >admin</a
           >
         </li>
-        <li>
+        <!-- <li>
           <a
             routerLink="/outlet/dispense"
             #outlets
@@ -27,7 +27,7 @@
             [class.selected]="outlets == selected"
             >outlets</a
           >
-        </li>
+        </li> -->
         <li [class.selected]="statistics == selected">
           <a
             routerLink="/statistics/summary"
@@ -36,7 +36,7 @@
             >statistics</a
           >
         </li>
-        <li [class.selected]="orders == selected">
+        <!-- <li [class.selected]="orders == selected">
           <a routerLink="/orders/view" #orders (click)="select(orders)"
             >orders</a
           >
@@ -45,15 +45,15 @@
           <a routerLink="/backdate" #backdate (click)="select(backdate)"
             >BACK-DISPENSE</a
           >
-        </li>
-        <li [class.selected]="backdateIssue == selected">
+        </li> -->
+        <!-- <li [class.selected]="backdateIssue == selected">
           <a
             routerLink="/backdate/issue"
             #backdateIssue
             (click)="select(backdateIssue)"
             >BACK-ISSUE</a
           >
-        </li>
+        </li> -->
       </ul>
     </nav>
     <div class="avatar">
